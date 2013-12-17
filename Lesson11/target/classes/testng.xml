@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="1">
+	<test name="FirstTest">
+		<classes>
+			<class name="com.luxoft.testng.FirstTestNg" />
+			<class name="com.luxoft.testng.SimpleTest" />
+		</classes>
+	</test>
+	<test name="particularTest">
+		<classes>
+			<class name="com.luxoft.testng.ParticularClass"></class>
+		</classes>
+	</test>
+</suite>
